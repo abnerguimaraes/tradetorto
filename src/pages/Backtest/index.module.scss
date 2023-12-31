@@ -1,0 +1,47 @@
+.container {
+  background-color: var(--grey-100);
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 72px);
+  min-height: calc(100vh - 72px);
+  overflow: auto;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 0 8px 0;
+}
+
+.subTitle {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 0 32px 0;
+}
+
+.line {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 96px;
+  padding: 0 32px 0 0;
+  width: 100%;
+}
+
+.estrategiaContainer {
+  background-color: var(--grey-90);
+}
+
+.operacoesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 16px 16px 16px;
+}
+
+.operacaoItemContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}

@@ -1,5 +1,18 @@
+:root {
+  box-sizing: border-box;
+  --grey-10: #f4f4f4;
+  --grey-20: #d1d1d1;
+  --grey-60: #565656;
+  --grey-70: #464646;
+  --grey-80: #363636;
+  --grey-90: #262626;
+  --grey-100: #161616;
+  --white: #ffffff;
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +20,95 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+section {
+  background-color: var(--grey-90);
+  color: var(--grey-10);
+  padding: 2rem !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+div {
+  color: var(--grey-10);
+}
+
+/* carbon overwrite classes */
+.bx--label {
+  color: var(--grey-10)!important;
+}
+
+.bx--form__helper-text {
+  color: var(--grey-10)!important;
+}
+
+.bx--select-input {
+  background: var(--grey-80) !important;
+  color: var(--grey-20) !important;
+}
+
+.bx--select__arrow {
+  fill: var(--grey-10) !important;
+}
+
+.bx--radio-button__appearance {
+  border-color: var(--grey-10) !important;
+}
+
+.bx--radio-button:checked + .bx--radio-button__label .bx--radio-button__appearance::before {
+  background-color: var(--grey-10) !important;
+}
+
+.bx--number__input-wrapper {
+  width: 100%;
+}
+
+.bx--number {
+  width: 100% !important;
+}
+
+.bx--number input {
+  background: var(--grey-80) !important;
+  border-bottom: 1px solid var(--grey-20);
+  border-right: none !important;
+  color: var(--grey-20) !important;
+  height: 40px;
+  padding: 1px 0 1px 16px; 
+  width: 100%;
+}
+
+.bx--fieldset {
+  margin: 0 !important;
+}
+
+.bx--number__controls {
+  display: none !important;
+}
+
+input:disabled {
+  color: var(--grey-60) !important;
+}
+
+.bx--date-picker-container {
+  width: 100% !important;
+}
+
+.bx--date-picker--single {
+  width: 100% !important;
+}
+
+.bx--date-picker__input {
+  background: var(--grey-80) !important;
+  color: var(--grey-10) !important;
+  width: 100% !important;
+}
+
+.bx--date-picker__icon {
+  fill: var(--grey-10) !important;
+}
+
+.cur-month {
+  color: var(--grey-70)!important;
 }
