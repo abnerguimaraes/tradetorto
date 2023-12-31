@@ -1,0 +1,5 @@
+.historicContainer {
+  background: var(--white);
+  min-height: 100vh;
+  /* min-width: 100vw; */
+}

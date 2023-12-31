@@ -1,0 +1,18 @@
+:root {
+  --primary-black: #262626;
+  --dark-grey: #363636;
+  --grey-regular: #ACACAC;
+  --light-grey: #A7A6A6;
+  --white: #DDDDDD;
+}
+
+body {
+  box-sizing: border-box;
+  color: var(--primary-black);
+  font-family: sans-serif;
+  margin: 0;
+}
+
+section {
+  padding: 16px
+}
