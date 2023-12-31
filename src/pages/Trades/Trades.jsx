@@ -3,7 +3,7 @@ import React from 'react';
 function Trades() {
   return (
     <div>
-      ABNER
+      ABNER THiafo
     </div>
   );
 }
