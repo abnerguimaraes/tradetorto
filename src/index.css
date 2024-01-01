@@ -112,3 +112,11 @@ input:disabled {
 .cur-month {
   color: var(--grey-70)!important;
 }
+
+.bx--form-item {
+  align-items: center !important;
+}
+
+.bx--toggle-input__label .bx--toggle__switch {
+  margin-top: 0 !important;
+}

@@ -425,7 +425,6 @@ function Backtest() {
           found = true;
         }
       }
-
     });
 
     if (!found) {
@@ -436,7 +435,10 @@ function Backtest() {
               "nroTrades": useFullResult['nroTeste'],
               "gain": useFullResult['percGain'],
               "loss": useFullResult['percLoss'],
+              "nroGain": useFullResult['ttGain'],
+              "nroLoss": useFullResult['ttLoss'],
               "media": useFullResult['finalResult'],
+              "isOn": true,
             }
           });
         }
