@@ -24,8 +24,8 @@ const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 
 function Login() {
-  const [ userName, setUserName ] = useState('guimaraesabner@gmail.com');
-  const [ userPass, setUserPass ] = useState('Teste123@');
+  const [ userName, setUserName ] = useState('');
+  const [ userPass, setUserPass ] = useState('');
   const [ mailValid, setMailValid ] = useState(true);
   const [ passValid, setPassValid ] = useState(true);
   const { initApp } = useContext(AppContext);
