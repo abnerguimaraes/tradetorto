@@ -34,7 +34,7 @@ function Trades() {
       }
       
     });
-  }, []);
+  });
 
   function turnLine(ticker, value) {
     let updatedValue; 
