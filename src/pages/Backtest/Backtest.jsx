@@ -208,8 +208,8 @@ function Backtest() {
       }
     });
 
-    percGain = (ttGain * 100) / resultArray.length;
-    percLoss = (ttLoss * 100) / resultArray.length;
+    percGain = ((ttGain * 100) / resultArray.length).toFixed(2);
+    percLoss = ((ttLoss * 100) / resultArray.length).toFixed(2);
 
     resultArray.forEach((item) => {
       finalResult += parseFloat(item);
