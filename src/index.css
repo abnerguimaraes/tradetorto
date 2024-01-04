@@ -114,7 +114,7 @@ input:disabled {
 }
 
 .bx--form-item {
-  align-items: center !important;
+  /* align-items: center !important; */
 }
 
 .bx--toggle-input__label .bx--toggle__switch {

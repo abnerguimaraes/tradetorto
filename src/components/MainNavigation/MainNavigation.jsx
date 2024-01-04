@@ -10,6 +10,7 @@ function MainNavigation() {
 
   useEffect(() => {
     navigate('/trades');
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function handleActiveBar(bar) {

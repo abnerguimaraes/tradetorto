@@ -54,6 +54,9 @@ function TradesTable ({ data, onAddTrade, onTurnLine }) {
       key: 'media',
       header: 'Resultado Médio'
     }, {
+      key: 'entrada',
+      header: 'Entrdada em'
+    },{
       key: 'addTrade',
       header: 'Add Trade'
     }, {
@@ -81,6 +84,7 @@ function TradesTable ({ data, onAddTrade, onTurnLine }) {
               <td> { item.gain } </td>
               <td> { item.loss } </td>
               <td> { item.media } </td>
+              <td> { item.entrada } </td>
               <td>
                 <Button
                   hasIconOnly={true}

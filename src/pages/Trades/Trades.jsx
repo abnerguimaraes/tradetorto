@@ -65,6 +65,7 @@ function Trades() {
       nroGain: stockData.nroGain,
       nroLoss: stockData.nroLoss,
       nroTrades: stockData.nroTrades,
+      entrada: stockData.entrada,
     }
 
     dataToBase.media = (((dataToBase.nroTrades * parseFloat(dataToBase.media)) + parseFloat(value)) / (dataToBase.nroTrades + 1)).toFixed(2);

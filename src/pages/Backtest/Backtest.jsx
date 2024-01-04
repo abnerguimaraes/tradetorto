@@ -438,6 +438,7 @@ function Backtest() {
               "nroGain": useFullResult['ttGain'],
               "nroLoss": useFullResult['ttLoss'],
               "media": useFullResult['finalResult'],
+              "entrada": txtTaxa,
               "isOn": true,
             }
           });
